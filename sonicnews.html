@@ -1,0 +1,61 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>sonic news</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+        <header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Gamer News</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="sonicnews.html">Sonic News</a></li>
+                        <li><a href="sonicfangames.html">Sonic Fan Games</a></li>
+                        <li><a href="sonictrailers.html">Sonic Trailers</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <img src="bilder/6.jpg"   width="500">
+    <h1>Sonic forces is a new 3d sonic game with a more darker tone. Eggman has token over 99% of the world. And found a new power.
+    Chaos shadow metal and that guy from sonic lost world are ready to figth the forces. There is gonne be a new bad gay as well the name is... 
+    there is a new avatar hero in the game you can make youre own sonic OC yey... Classic is also back but now from an dimension weird.
+    of cures modern is back with more boost gameplay.</h1>
+    <img src="bilder/13.png"  width="500">
+    <h1>Sonic mania is a brand new 2d sonic game where you are goning on a 16bit sonic game. And the game is being created by fans
+    of 2d sonic. The playeble characters are sonic knukels and tails. 8.15.17 is the game coming out so its not long.</h1>
+    </main>
+</body>
+</html>
